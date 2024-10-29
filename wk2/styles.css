@@ -1,0 +1,27 @@
+.flex-container{
+    background-color: blue;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    height:100vh;
+    align-items: baseline;
+    flex-wrap: wrap;
+    overflow:hidden;
+    /* flex-flow- this allows you to use both the flex-dirction property and flex-wrap properties */
+    /* justify content and align content are opposite  */
+}
+
+.flex-container>div{
+    min-width: 100px;
+    height:100px;
+    border: 10px solid black;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    
+    
+    margin: 10px;
+    
+}
+
+/* display- */
